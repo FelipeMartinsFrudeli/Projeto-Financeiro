@@ -14,7 +14,7 @@ Wendell <br/>
 
 1. Instale o repositório localmente
 2. Entre na pasta
-3. Caso não tenha instalado leia  https://dev.to/marcelochia/instalando-o-php-8-no-windows-237m <br/>
+3. Instale o php caso não tenha instalado, leia  https://dev.to/marcelochia/instalando-o-php-8-no-windows-237m <br/>
 ou se estiver instalado WAMP ou XAMPP, pesquise por "Add path php WAMP"
 4. Inicie um servidor PHP
 
