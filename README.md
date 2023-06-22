@@ -93,5 +93,12 @@ BEGIN
 		WHERE account_id = OLD.account_id;
 	END IF;
 END$
+	
+CREATE TRIGGER new_user
+AFTER INSERT ON registred_user
+FOR EACH ROW
+BEGIN
+	INSERT INTO bank_account (user_id, amount) VALUES (NEW.user_id, 0);
+END$
 DELIMITER ;
 ```
