@@ -10,7 +10,7 @@ João Pedro Prado <br/>
 Wendell <br/>
 
 
-## Como ultilizar:
+## Como utilizar:
 
 1. Instale o repositório localmente
 2. Entre na pasta
