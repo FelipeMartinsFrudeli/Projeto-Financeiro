@@ -1,8 +1,8 @@
-## Projeto Financeiro
+# Projeto Financeiro
 
-# 1° DS - Turma B
+### 1° DS - Turma B
 
-# Integrantes:
+## Integrantes:
 Erik Machado Lopez
 Guilherme Cardoso
 Felipe Martins Frudeli
