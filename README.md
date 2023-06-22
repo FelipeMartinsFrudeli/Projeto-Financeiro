@@ -34,9 +34,9 @@ USE Projeto_Financeiro;
 CREATE TABLE registred_user
 (
 	user_id 	INT PRIMARY KEY AUTO_INCREMENT,
-    first_name	VARCHAR(60) NOT NULL,
+    first_name		VARCHAR(60) NOT NULL,
     login		VARCHAR(100) NOT NULL,
-    pass_word	VARCHAR(100) NOT NULL,
+    pass_word		VARCHAR(100) NOT NULL,
     create_date	DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -54,11 +54,11 @@ CREATE TABLE transactions
 (
 	transaction_id	INT PRIMARY KEY AUTO_INCREMENT,
     account_id		INT NOT NULL,
-    amount			DECIMAL(12,2) NOT NULL,
-    t_type			VARCHAR(60) NOT NULL,
-	title			VARCHAR(100),
+    amount		DECIMAL(12,2) NOT NULL,
+    t_type		VARCHAR(60) NOT NULL,
+	title		VARCHAR(100),
     t_description 	TEXT,
-    t_date			DATETIME DEFAULT CURRENT_TIMESTAMP,
+    t_date		DATETIME DEFAULT CURRENT_TIMESTAMP,
     
     FOREIGN KEY (account_id) REFERENCES bank_account(account_id) ON DELETE CASCADE
 );
