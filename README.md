@@ -3,11 +3,11 @@
 ### 1° DS - Turma B
 
 ## Integrantes:
-Erik Machado Lopez
-Guilherme Cardoso
-Felipe Martins Frudeli
-João Pedro Prado
-Wendell
+Erik Machado Lopez <br/>
+Guilherme Cardoso <br/> 
+Felipe Martins Frudeli <br/>
+João Pedro Prado <br/>
+Wendell <br/>
 
 
 ## Como ultilizar:
